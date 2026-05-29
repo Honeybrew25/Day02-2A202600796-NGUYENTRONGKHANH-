@@ -75,7 +75,7 @@ Mỗi khi tối ưu thuật toán RAG hoặc refactor câu lệnh hệ thống (
 Bước 5 — Đọc hiểu và thẩm định chất lượng bằng mắt tốn quá nhiều năng lượng nhận thức, dễ sai sót mang tính cảm tính sau khi đọc quá nhiều chữ.
 
 **Impact:**  
- Mất 150 phút/lần test. Một tuần sửa code 3 lần $\rightarrow$ Mất gần 8 tiếng/tuần chỉ để test tay. Khánh bị tâm lý "sợ sửa code" vì ngại quy trình test quá mệt mỏi.
+ Mất 150 phút/lần test. Một tuần sửa code 3 lần -> Mất gần 8 tiếng/tuần chỉ để test tay. Khánh bị tâm lý "sợ sửa code" vì ngại quy trình test quá mệt mỏi.
 
 **Success metric:**  
 Giảm tổng thời gian chạy và đánh giá tập Test xuống dưới 5 phút, xuất ra được chỉ số chất lượng cụ thể (Score 0.0 - 1.0) một cách tự động.
@@ -103,7 +103,7 @@ CURRENT STATE — 150 phút
 ### Draft future workflow
 
 ```text
-FUTURE STATE — 21 phút
+FUTURE STATE — 12 phút
 
 [1 Sửa code/Prompt: 10']
 → [2 Chạy CLI Script tự động gọi API: 1']
